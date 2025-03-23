@@ -10,7 +10,7 @@ data = "https://www.python.org/"  # EXAMPLE DATA  (User can put any URL in Betwe
 qr_code_generator=qrcode.QRCode(
     version=1,  # size of QR Code (Versions range from 1 to 40) (we took '1' here for efficency)
     error_correction=qrcode.constants.ERROR_CORRECT_H,  # ERROR Correction Level (L (Low) , M(Medium) , Q(Quartile) , H(High))
-    box_size=12,  # Sixe of each Box in The QR GRID
+    box_size=12,  # Size of each Box in The QR GRID
     border=5,  # Thickness of the border (The Minimum value has to be 4)
 )
 
